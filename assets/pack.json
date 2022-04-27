@@ -1,0 +1,321 @@
+{
+  "preload": {
+    "files": [
+      {
+        "type": "audio",
+        "key": "bgm-game",
+        "url": "./assets/audio/game.mp3"
+      },
+      {
+        "type": "image",
+        "key": "rotate",
+        "url": "./assets/images/rotate.png"
+      },
+      {
+        "type": "image",
+        "key": "arrow-left",
+        "url": "./assets/images/arrow_left.png"
+      },
+      {
+        "type": "image",
+        "key": "arrow-right",
+        "url": "./assets/images/arrow_right.png"
+      },
+      {
+        "type": "image",
+        "key": "tutorial-bg",
+        "url": "./assets/images/tutorial_bg.png"
+      },
+      {
+        "type": "image",
+        "key": "game-bg",
+        "url": "./assets/images/game_bg.png"
+      },
+      {
+        "type": "image",
+        "key": "game-ground",
+        "url": "./assets/images/game_ground.png"
+      },
+      {
+        "type": "image",
+        "key": "game-pt50",
+        "url": "./assets/images/game_point50.png"
+      },
+      {
+        "type": "image",
+        "key": "game-pt100",
+        "url": "./assets/images/game_point100.png"
+      },
+      {
+        "type": "image",
+        "key": "gameover-bg",
+        "url": "./assets/images/gameover_bg.png"
+      },
+      {
+        "type": "image",
+        "key": "gameover-photo",
+        "url": "./assets/images/gameover_photo.png"
+      },
+      {
+        "type": "image",
+        "key": "gameover-netprint",
+        "url": "./assets/images/gameover_netprint.png"
+      },
+      {
+        "type": "image",
+        "key": "pasta-bolognese",
+        "url": "./assets/images/gameover_pastaBolognese.png"
+      },
+      {
+        "type": "image",
+        "key": "pasta-edamame",
+        "url": "./assets/images/gameover_pastaEdamame.png"
+      },
+      {
+        "type": "image",
+        "key": "pasta-seafood",
+        "url": "./assets/images/gameover_pastaSeafood.png"
+      },
+      {
+        "type": "image",
+        "key": "pasta-sweet",
+        "url": "./assets/images/gameover_pastaSweet.png"
+      },
+      {
+        "type": "image",
+        "key": "pasta-wafuu",
+        "url": "./assets/images/gameover_pastaWafuu.png"
+      },
+      {
+        "type": "image",
+        "key": "bolognese-text",
+        "url": "./assets/images/bolognese_text.png"
+      },
+      {
+        "type": "image",
+        "key": "bolognese-desc",
+        "url": "./assets/images/bolognese_desc.png"
+      },
+      {
+        "type": "image",
+        "key": "edamame-text",
+        "url": "./assets/images/edamame_text.png"
+      },
+      {
+        "type": "image",
+        "key": "edamame-desc",
+        "url": "./assets/images/edamame_desc.png"
+      },
+      {
+        "type": "image",
+        "key": "seafood-text",
+        "url": "./assets/images/seafood_text.png"
+      },
+      {
+        "type": "image",
+        "key": "seafood-desc",
+        "url": "./assets/images/seafood_desc.png"
+      },
+      {
+        "type": "image",
+        "key": "sweet-text",
+        "url": "./assets/images/sweet_text.png"
+      },
+      {
+        "type": "image",
+        "key": "sweet-desc",
+        "url": "./assets/images/sweet_desc.png"
+      },
+      {
+        "type": "image",
+        "key": "wafuu-text",
+        "url": "./assets/images/wafuu_text.png"
+      },
+      {
+        "type": "image",
+        "key": "wafuu-desc",
+        "url": "./assets/images/wafuu_desc.png"
+      },
+      {
+        "type": "spritesheet",
+        "key": "hound",
+        "url": "./assets/sprites/sprite_hound.png",
+        "frameConfig": {
+          "frameWidth": 297,
+          "frameHeight": 277
+        }
+      },
+      {
+        "type": "spritesheet",
+        "key": "okapa",
+        "url": "./assets/sprites/sprite_okapa.png",
+        "frameConfig": {
+          "frameWidth": 240,
+          "frameHeight": 274
+        }
+      },
+      {
+        "type": "spritesheet",
+        "key": "bacon",
+        "url": "./assets/sprites/drops_bacon.png",
+        "frameConfig": {
+          "frameWidth": 110,
+          "frameHeight": 112
+        }
+      },
+      {
+        "type": "spritesheet",
+        "key": "bean",
+        "url": "./assets/sprites/drops_bean.png",
+        "frameConfig": {
+          "frameWidth": 65,
+          "frameHeight": 66
+        }
+      },
+      {
+        "type": "spritesheet",
+        "key": "candy",
+        "url": "./assets/sprites/drops_candy.png",
+        "frameConfig": {
+          "frameWidth": 81,
+          "frameHeight": 72
+        }
+      },
+      {
+        "type": "spritesheet",
+        "key": "cheese",
+        "url": "./assets/sprites/drops_cheese.png",
+        "frameConfig": {
+          "frameWidth": 100,
+          "frameHeight": 107
+        }
+      },
+      {
+        "type": "spritesheet",
+        "key": "chocolate",
+        "url": "./assets/sprites/drops_chocolate.png",
+        "frameConfig": {
+          "frameWidth": 96,
+          "frameHeight": 105
+        }
+      },
+      {
+        "type": "spritesheet",
+        "key": "clam",
+        "url": "./assets/sprites/drops_clam.png",
+        "frameConfig": {
+          "frameWidth": 66,
+          "frameHeight": 76
+        }
+      },
+      {
+        "type": "spritesheet",
+        "key": "edamame",
+        "url": "./assets/sprites/drops_edamame.png",
+        "frameConfig": {
+          "frameWidth": 76,
+          "frameHeight": 91
+        }
+      },
+      {
+        "type": "spritesheet",
+        "key": "eringi",
+        "url": "./assets/sprites/drops_eringi.png",
+        "frameConfig": {
+          "frameWidth": 80,
+          "frameHeight": 91
+        }
+      },
+      {
+        "type": "spritesheet",
+        "key": "fish",
+        "url": "./assets/sprites/drops_fish.png",
+        "frameConfig": {
+          "frameWidth": 97,
+          "frameHeight": 66
+        }
+      },
+      {
+        "type": "spritesheet",
+        "key": "lollipop",
+        "url": "./assets/sprites/drops_lollipop.png",
+        "frameConfig": {
+          "frameWidth": 90,
+          "frameHeight": 120
+        }
+      },
+      {
+        "type": "spritesheet",
+        "key": "sausage",
+        "url": "./assets/sprites/drops_sausage.png",
+        "frameConfig": {
+          "frameWidth": 66,
+          "frameHeight": 96
+        }
+      },
+      {
+        "type": "spritesheet",
+        "key": "shimeji",
+        "url": "./assets/sprites/drops_shimeji.png",
+        "frameConfig": {
+          "frameWidth": 50,
+          "frameHeight": 80
+        }
+      },
+      {
+        "type": "spritesheet",
+        "key": "shrimp",
+        "url": "./assets/sprites/drops_shrimp.png",
+        "frameConfig": {
+          "frameWidth": 75,
+          "frameHeight": 95
+        }
+      },
+      {
+        "type": "spritesheet",
+        "key": "tomato",
+        "url": "./assets/sprites/drops_tomato.png",
+        "frameConfig": {
+          "frameWidth": 74,
+          "frameHeight": 77
+        }
+      },
+      {
+        "type": "spritesheet",
+        "key": "tutorial-catch",
+        "url": "./assets/sprites/tutorial_catch.png",
+        "frameConfig": {
+          "frameWidth": 403,
+          "frameHeight": 299
+        }
+      },
+      {
+        "type": "spritesheet",
+        "key": "tutorial-move",
+        "url": "./assets/sprites/tutorial_move.png",
+        "frameConfig": {
+          "frameWidth": 636,
+          "frameHeight": 299
+        }
+      },
+      {
+        "type": "spritesheet",
+        "key": "tutorial-button",
+        "url": "./assets/sprites/tutorial_button.png",
+        "frameConfig": {
+          "frameWidth": 219,
+          "frameHeight": 263
+        }
+      },
+      {
+        "type": "spritesheet",
+        "key": "tutorial-buttonArrow",
+        "url": "./assets/sprites/tutorial_buttonArrow.png",
+        "frameConfig": {
+          "frameWidth": 470,
+          "frameHeight": 57
+        }
+      }
+    ]
+  }
+}
